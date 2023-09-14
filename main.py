@@ -8,8 +8,8 @@ def my_task():
         count = get_time_count()
         print(count)
         sendNoifications.send_notifications_dev(count)
-        sendNoifications.send_notifications_beta(count)
-        sendNoifications.send_notifications_prod(count)
+        # sendNoifications.send_notifications_beta(count)
+        # sendNoifications.send_notifications_prod(count)
     except Exception as e:
         print('error',e)
 
